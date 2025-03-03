@@ -1,0 +1,44 @@
+# Ignore .env file
+.env
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore environment-specific files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore build/output directories
+dist/
+build/
+out/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore package-lock.json (optional, depending on your workflow)
+package-lock.json
+
+# Ignore yarn.lock (if using Yarn)
+yarn.lock
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore coverage directories (if using testing frameworks)
+coverage/
+.nyc_output/
