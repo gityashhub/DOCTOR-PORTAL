@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve Patient</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Retrieve Patient</h2>
+        <form id="fetchPatientForm">
+            <label for="fetch_patient_id">Enter Patient ID:</label>
+            <input type="text" id="fetch_patient_id" placeholder="Enter Patient ID" required>
+            <button type="submit">Retrieve</button>
+        </form>
+        <div id="patientRecords"></div>
+        <button onclick="window.location.href='dashboard.html'">Back to Dashboard</button>
+    </div>
+</body>
+</html>

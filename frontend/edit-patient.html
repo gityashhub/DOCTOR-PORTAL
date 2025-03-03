@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Patient</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Edit Patient Data</h2>
+        <form id="editPatientForm">
+            <label for="patientId">Enter Patient ID:</label>
+            <input type="text" id="patientId" placeholder="Patient ID" required>
+            <button type="button" onclick="fetchPatientData()">Fetch Data</button>
+            <div id="patientData"></div>
+        </form>
+    </div>
+</body>
+</html>

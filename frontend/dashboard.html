@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="dashboard">
+        <h2>Welcome, Doctor</h2>
+        <button onclick="window.location.href='create-patient.html'">Create Patient</button>
+        <button onclick="window.location.href='retrieve-patient.html'">Retrieve Patient</button>
+        <button onclick="fetchAllPatients()">Show All Patients</button>
+        <button onclick="window.location.href='edit-patient.html'">Edit Patient Data</button>
+        <button onclick="window.location.href='delete-patient.html'">Delete Patient</button>
+        <div id="patientList"></div>
+        <button id="logout">Logout</button>
+    </div>
+</body>
+</html>
